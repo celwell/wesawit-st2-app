@@ -1,0 +1,16 @@
+nbproject/
+.DS_Store
+*~
+*swp
+iOS/www-src/app.js
+iOS/www-src/util.js
+iOS/www-src/app/
+iOS/www-src/build/
+iOS/www-src/archive/
+
+
+iOS/CordovaLib/CordovaLib.xcodeproj/xcuserdata/Cam.xcuserdatad/
+iOS/WeSawIt.xcodeproj/project.xcworkspace/xcuserdata/Cam.xcuserdatad/
+iOS/WeSawIt.xcodeproj/xcuserdata/Cam.xcuserdatad/
+*.xcuserstate
+tags

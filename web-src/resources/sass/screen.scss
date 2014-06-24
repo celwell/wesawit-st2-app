@@ -1,0 +1,30 @@
+$base-color: #0074c8;
+$active-color: #006CBC;
+
+$tabs-bar-gradient: 'glossy';
+$tabs-dark: darken(desaturate($base-color, 10%), 5%);
+$tabs-dark-active-color: $active-color;
+$tabs-bottom-active-gradient: 'glossy';
+
+$list-header-bg-color: desaturate(#0076c9, 15%);
+
+@import 'sencha-touch/default/all';
+
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-sheet;
+@include sencha-picker;
+@include sencha-tabs;
+@include sencha-toolbar;
+@include sencha-list;
+@include sencha-list-paging;
+@include sencha-list-pullrefresh;
+@include sencha-layout;
+@include sencha-carousel;
+@include sencha-form;
+@include sencha-loading-spinner;
+
+@include sencha-button-ui('orange', #FF6E2E, 'matte');
+@include sencha-toolbar-ui('grey', #afafaf, 'matte');
+@include sencha-toolbar-ui('orange', #1296F7, 'matte');
+@include sencha-toolbar-ui('blue', #0076cc, 'bevel');
